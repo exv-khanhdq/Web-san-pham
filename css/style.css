@@ -1,0 +1,573 @@
+body{
+padding:0;
+margin: 0;
+
+}
+.wrapper{
+ border: 1px solid #000;
+ height: 700px;
+ width: 90%;
+ margin:0 auto ;
+}
+.header{
+    /*  background-image:  url("../images/xor-02.jpg");*/
+      background-repeat:no-repeat ;
+      background-size: 100% 180px;
+      border: 1px solid rgb(86, 71, 71);
+      height: 180px;
+      width: 100%;
+      background-color: #ff0080;
+  }
+  .header img {
+        background-repeat:no-repeat ;
+        background-size: 100% 180px;
+        border: 1px solid rgb(86, 71, 71);
+        height: 180px;
+        width: 100%;
+        background-color: #ff0080;
+    }
+i.fa.fa-plus.fa-style {
+    font-size: 20px;
+    color: #000;
+    
+}
+i.fa.fa-plus.fa-style:hover {
+    color: brown;
+}
+
+i.fa.fa-minus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-minus.fa-style:hover {
+    color: brown;
+}
+.wrapper_chitiet{
+ height: 400px;
+ width: 90%;
+ margin:0 auto ;
+}
+.hinhanh_sanpham{
+   
+    float: left;
+    width: 300px;
+   
+}
+.chitiet_sanpham {
+    float: left;
+    width: 45%;
+    margin: 0 10px;
+}
+input.themgiohang {
+    border: none;
+    background: brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.menu{
+    border: 1px solid #000;
+    height: 50px;
+    width: 100%;
+    background-color: #00e6ac;
+}
+ul.list_menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 78%;
+    border: 1px ;
+    margin: 0 auto;
+    line-height: 27px;
+    
+
+  
+
+    
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #3333ff;
+    
+}
+ul.list_menu li:hover {
+    background-color: burlywood;
+}
+ul.list_menu li {
+    float: left;
+    margin: 7px;
+    padding: 5px;
+}
+#main{
+    border: 1px solid #000;
+    height: auto;
+    width: 100%;
+    
+}
+
+.sidebar{
+    border: 1px solid #000066;
+    height: 453px;
+    width: 100%;
+    margin-top:5px ;
+    margin-left: 5px;
+  float: left;
+}
+ul.list_sidebar{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    border: 1px ;
+    line-height: 27px;
+    
+
+  
+
+    
+}
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: #3333ff;
+    display: block;
+    
+}
+ul.list_sidebar li:hover {
+    background-color: cadetblue;
+}
+ul.list_sidebar li {
+    margin: 7px;
+    padding: 5px;
+}
+.maincontent {
+    
+    height: auto;
+    width: 100%;
+    margin-top:5px ;
+    margin-right: 5px;
+    float: right;
+    
+    
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+     
+}
+
+ul.product_list li {
+    width: 18.6%;
+    border: 1px solid #000;
+    margin: 5px;
+    float: left;
+    background: aquamarine;
+    height: 320px;
+}
+ul.product_list li img {
+    width: 100%;
+    height: 190px;
+}
+p.title_product {
+    text-align: center;
+    color: #58464f;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+p.price-product {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer{
+    border: 1px solid rgb(197, 76, 76);
+    height: 150px;
+    width: 100%;
+    background-color: #00cc99;
+}
+p.footer_copyright {
+    text-align: center;
+    color: #ff0080;
+}
+.clear {
+ clear: both;
+}
+/* Tabs */
+.tabs {
+    width: 100%;
+    background-color: #343a40;
+    border-radius: 5px 5px 5px 5px;
+  }
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+  }
+  ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 8px 10px;
+    border-radius: 5px 5px 5px 5px;
+    /*border: 1px solid #d5d5de;
+    border-bottom: none;*/
+    cursor: pointer;
+  }
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+    background-color: rgb(104, 114, 121);
+  }
+  #tabs-nav li a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .tab-content {
+    padding: 10px;
+    border: 5px solid  rgb(104, 114, 121);
+    background-color: #FFF;
+  }
+  /*-----------------------------------------------------------------------------------*/
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #343a40;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+/*Thiết Lập Cho Thành Phần Nội Dung Giới Thiệu*/
+footer .container .noi-dung{
+    margin-right: 30px;
+}
+footer  .container .noi-dung.about{
+    width:40%;
+}
+footer .container .noi-dung.about h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+footer .container .noi-dung.about p{
+    color: #999;
+}
+/*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+}
+.social-icon li {
+    list-style: none;
+}
+.social-icon li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.social-icon li a:hover{
+    background: #f00;
+}
+.social-icon li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.links{
+   position: relative;
+   width: 25%;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links ul li a:hover{
+    color: #fff;
+}
+.contact h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info{
+    position: relative;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .info li span{
+    color: #999;
+}
+.contact .info li a{
+    color: #999;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-top:16px;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+.btn--primary {
+    background: #222;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 8px 24px;
+}
+.btn--primary:hover {
+    background: #f00;
+}
+.btn--primary:active {
+    background: #f00;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+.form__field {
+    width: 90%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 8px 4px;
+}
+@media  (max-width: 768px){
+    footer{
+        padding: 40px;
+             }
+    footer .container{
+        flex-direction: column;
+    }
+    footer .container .noi-dung{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container, .noi-dung.about, .links, .contact{
+        width: 100%;
+    }
+}
+
+
+/*----------------------------*/
+
+
+.bn53 {
+    background-color: #d71717;
+    padding: 7px;
+    width: auto;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: bn53bounce 3s infinite;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+    color: #303430;
+    border-color: #aa5576;
+  }
+  .bn53:hover {
+    background-color: #317dc8;
+    padding: 7px;
+    width: auto;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: bn53bounce 3s infinite;
+    cursor: pointer;
+    font-size: 15px;
+   
+    margin-left: 30px;
+    color: #c9d6e2;
+  }
+  @keyframes bn53bounce {
+    5%,
+    50% {
+      transform: scale(1);
+    }
+  
+    10% {
+      transform: scale(1);
+    }
+  
+    15% {
+      transform: scale(1);
+    }
+  
+    20% {
+      transform: scale(1) rotate(-5deg);
+    }
+  
+    25% {
+      transform: scale(1) rotate(5deg);
+    }
+  
+    30% {
+      transform: scale(1) rotate(-3deg);
+    }
+  
+    35% {
+      transform: scale(1) rotate(2deg);
+    }
+  
+    40% {
+      transform: scale(1) rotate(0);
+    }
+  }
+  .themgiohang {
+    background-color: #d71717;
+    padding: 7px;
+    width: auto;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: bn53bounce 3s infinite;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+    color: #303430;
+    border-color: #aa5576;
+  }
+  .themgiohang:hover {
+    background-color: #317dc8;
+    padding: 7px;
+    width: auto;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: bn53bounce 3s infinite;
+    cursor: pointer;
+    font-size: 15px;
+   
+    margin-left: 30px;
+    color: #c9d6e2;
+  }
+  @keyframes bn53bounce {
+    5%,
+    50% {
+      transform: scale(1);
+    }
+  
+    10% {
+      transform: scale(1);
+    }
+  
+    15% {
+      transform: scale(1);
+    }
+  
+    20% {
+      transform: scale(1) rotate(-5deg);
+    }
+  
+    25% {
+      transform: scale(1) rotate(5deg);
+    }
+  
+    30% {
+      transform: scale(1) rotate(-3deg);
+    }
+  
+    35% {
+      transform: scale(1) rotate(2deg);
+    }
+  
+    40% {
+      transform: scale(1) rotate(0);
+    }
+  }
+  .sidebar{
+    padding-bottom: 0;
+    border-radius: 5px;
+    border-color: #303430;
+    
+  }
