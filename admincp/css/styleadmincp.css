@@ -13,10 +13,10 @@ ui.admincp_list li {
 h3.title_admin {
     text-align: center;
     font-size: 40px;
-    color: blue;
+    color: rgb(88, 88, 106);
 }
 .wrapper{
-    border: 1px solid #000;
+    border: 1px solid rgb(16, 5, 5);
     height: 700px;
     width: 90%;
     margin:0 auto ;

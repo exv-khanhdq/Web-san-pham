@@ -10,7 +10,6 @@
         $_SESSION['dangki'] = $row_data['tenkhachhang'];
         $_SESSION['id_khachhang'] = $row_data['id_dangki'];
         header("Location:index.php?quanly=giohang");
-
     } else{
         echo '<p style="color:red"> Mật khẩu hoặc email Không đúng,vui lòng nhập lại</p>';
     }
